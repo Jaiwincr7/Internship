@@ -107,10 +107,16 @@ header{
     border-radius: 10px;
     box-shadow: rgb(124, 165, 201) 0px 10px 10px -10px;
 }
+
 #first{
     padding: 10px;
     justify-content: space-between;
     display: flex;
+    text-align: center;
+}
+.service-cont i{
+   text-align: center;
+   display: block;
 }
 .items1 p{
     padding-top: 10px;
@@ -121,22 +127,12 @@ header{
     width: 18vw;
     color: black;
 }
-#second{
-    padding: 15px;
-    justify-content: space-between;
-    display: flex;
-}
 .items2 p{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     border: none;
     width: 19vw;
     color: black;
-}
-#third{
-    padding: 15px;
-    justify-content: space-between;
-    display: flex;
 }
 /* service-container*/
 
@@ -173,7 +169,7 @@ header{
  #needs .swiper-slide {
     border-radius: 10px;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     background: aliceblue;
     
     /* Center slide text vertically */
@@ -231,6 +227,15 @@ header{
     .fa-bell{
         margin-left: 10px;
     }
+    #sevices{
+        /* width:min-content; */
+    }
+    .boxes{
+        margin: 2px;
+    }
+    .service-cont p{
+        font-size: 10px;
+    }
 }
 @media only screen and (min-width:1000px){
     h1{
@@ -240,7 +245,7 @@ header{
         font-family: 'Poppins', sans-serif;
     }
     .swiper{
-        width: 50%;
+        width: 60%;
     }
     .first{
         margin-left: 1000px;
@@ -256,19 +261,11 @@ header{
         width: 0;
     }
     .service-cont{
-        width: 75%;
+        width: 78%;
         position: relative;
         left: 180px;
     }
-    #first{
-        padding-left: 100px;
-    }
-    #second{
-        padding-left: 100px;
-    }
-    #third{
-        padding-left: 100px;
-    }
+    
     #sevices .first-con{
         padding: 10px;
         margin-left: 0;
