@@ -12,7 +12,7 @@ h1{
 header{
     padding: 10px;
     height: 5vh;
-    background-color: #3BACB6;
+    background-color: #55D8C1;
 }
 .first{
     justify-items: center;
@@ -38,10 +38,10 @@ header{
 .serch{
     position: sticky;
     display: flex;
-    padding-top: 12px;
+    padding-top: 15px;
     justify-content: center;
     height: 8vh;
-    background-color: #3BACB6;
+    background-color: #55D8C1;
 }
 .serch .box{
     display: flex;
@@ -144,8 +144,9 @@ header{
     margin-top: 30px;
     font-size: 30px;
     font-weight: 400;
-    background-color: #6FEDD6;
+    background-color: #55D8C1;
     color: #319DA0;
+
 }
 .daily{
     font-family: 'Poppins', sans-serif;
@@ -201,8 +202,8 @@ header{
 
 #sevices .first-con{
     padding: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0px;
+    margin-right: 0px;
     display: flex;
 }
 .boxes{
@@ -223,15 +224,15 @@ header{
     display: none;
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
+    #sevices .first-con{
+        margin-left: 4px;
+    }
     .fa-bell{
-        margin-left: 10px;
-    }
-    #sevices{
-        /* width:min-content; */
-    }
+        margin-left: 32px;
+    }   
     .boxes{
-        margin: 2px;
+        margin: 2.5px;
     }
     .service-cont p{
         font-size: 10px;
