@@ -32,7 +32,7 @@ header{
     font-size: 20px;
 }
 .fa-bell{
-    margin-left: 65px;
+    margin-left: 95px;
 }
 
 .serch{
@@ -227,7 +227,11 @@ header{
     display: none;
 }
 
-
+@media only screen and (max-width:400px){
+    .fa-bell{
+        margin-left: 10px;
+    }
+}
 @media only screen and (min-width:1000px){
     h1{
         display: block;
